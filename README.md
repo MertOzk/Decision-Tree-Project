@@ -1,9 +1,7 @@
 # Decision-Tree-Project
 To be able to view this project you will need Python, Jupyter Notebook and Anaconda installed. You can click on the hyperlinks to look at a guide on how to install them. Please install the workbook and the dataset and change your directory to the downloaded folder to successfully run the workbook.
 
-For this project I will be exploring publicly available data from [LendingClub.com](www.lendingclub.com). Lending CLub brings together investors and borrowers. I will try to create a model that will help predict high return investments.
-
-I will use lending clubs data from 2007-2010 provided by Pieran Data and try to create a model that predicts and classifies whether or not the borrower paid back their loan in full.
+For this project I explored  [LendingClub.com's](www.lendingclub.com) publicly available data from 2007-2010 provided by [Pieran Data](https://pieriantraining.com/). Lending Club is a platform that brings together investors and borrowers. My goal was to create a model that would predict high return investments. I created a decision tree and a random forest model to predict and classify whether or not the borrower paid back their loan. This could be used to determine who is a better investment, while comparing the performances between random forest and decision tree models. 
 
 Here are what the columns represent:
 * credit.policy: 1 if the customer meets the credit underwriting criteria of LendingClub.com, and 0 otherwise.
